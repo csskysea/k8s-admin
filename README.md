@@ -56,3 +56,5 @@ kubectl get endpoints <service-name> -n <namespace>
 	• 确认 CNI 插件（如 Calico, Flannel, Cilium）的 Pod 是否处于 Running 状态。
 	• 检查 kube-proxy 日志是否有异常报错或 IPVS/Iptables 规则加载失败。
 
+# Reference 
+https://kubernetes.io/zh-cn/docs/tasks/debug/debug-cluster/
